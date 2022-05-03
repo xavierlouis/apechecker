@@ -8,3 +8,11 @@
 - Editer "callapes.sh" pour mettre le fichier d'input
 - Lancer le batch
 - Si resultats, ils apparaissent dans le fichier de sortie.
+
+## Si besoin de recreer le fichier "credentials.js"
+
+const getApiURL = () => {
+    return 'https://eth-mainnet.alchemyapi.io/v2/APIKEY';
+  };
+  
+exports.getApiURL = getApiURL;
